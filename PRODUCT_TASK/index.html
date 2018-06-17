@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Login or Singup</title>
+</head>
+
+<body  class="first">
+   
+    <div class="container1">
+            <div class="register" style="margin: 0px auto;">
+    <form action="#">
+        <div class="login">
+            <h3  style="text-align: center;color: rgb(255, 255, 255)"> Sing In </h3>
+            <input class="inp" id="log_email" type="text" placeholder="Your E-mail">
+            <br>
+            <br>
+            <input class="inp" id="log_pass" type="password" placeholder="Password">
+            <br>
+            <br>
+            <input id="btnLogin" type="button" onclick="LogMeIn()" value="Login">
+            <br>
+            <span style="color: white;">Don't have account yet?<a style="color: white;" onclick="openNav()" href="#">Register Now</a></span>
+        </div>
+        </div>
+    </form>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <form class="reg2" action="#">
+                    <h3  style="color: rgb(255, 255, 255)"> Registration </h3>
+                    <input class="inp" id="reg_name" type="text" placeholder="Name">
+                    <br>
+                    <br>
+                    <input class="inp" id="reg_email" type="email" placeholder="E-mail">
+                    <br>
+                    <br>
+                    <input class="inp" id="reg_pass" type="password" placeholder="New Password">
+                    <br>
+                    <br>
+                    <input class="inp" id="reg_pass_retype" type="password" placeholder="Confirm Password">
+                    <br>
+                    <br>
+                    <button id="btnLogin" onclick="register()">Register</button>
+        </form>
+    </div>
+          
+          <script>
+          function openNav() {
+              document.getElementById("mySidenav").style.width = "350px";
+          }
+          
+          function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

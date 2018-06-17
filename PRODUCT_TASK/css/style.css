@@ -1,0 +1,161 @@
+.container{
+ position: relative;
+ width: 600px;
+ height: auto;
+ margin: 0px auto;
+ background-color: rgba(7, 43, 58, 0.521);
+ display: flex;
+ flex-wrap: wrap;
+ padding: 50px;
+}
+#sell{
+    float: right;
+}
+#userName{
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    border: 3px solid white;
+}
+#user{
+    position: absolute;
+    left: 37px;
+    color: white;
+}
+.userCont{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.219); 
+    box-shadow:20px 20px 20px;
+}
+ .prod{
+     background-color: rgba(13, 99, 99, 0.568);
+     margin: 5px;
+     width: 150px;
+     height:200px;
+     padding: 20px 20px 0 20px;
+ }
+  #sellBtn{
+      width: 55px;
+      height: 55px;
+      right: 0px;
+      position: absolute;
+      top: 0px;
+      background-color: #453ab996;
+      border: none;
+  }
+  #sellBtn:hover{
+      color: white;
+      transition: 0.5s all ease-in;
+  }
+.container1{
+    padding: 24px 60px 40px 44px;
+    width: 270px;
+    background-color: rgba(255, 255, 255, 0.219);
+    margin: 0px auto;
+    margin-top: 120px;
+    box-shadow:20px 20px 20px;
+}
+.reg2{
+    position: relative;
+    width: 270px;
+    padding: 0 0 30px 50px;
+    background-color: rgba(255, 255, 255, 0.219); 
+    margin-top: 40px;
+    box-shadow:0px 20px 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+#btnLogin{
+    width: 173px;
+    background-color: rgba(81, 81, 180, 0.562);
+    border: none;
+    color: white;
+}
+.register{
+    width: 174px;
+    height: 100%;
+}
+  .container2{
+      width: 200px;
+      margin: 0px auto;
+      background-color: aquamarine;
+      padding: 20px;
+
+  }
+
+  body .inp{
+      outline: none;
+      background-color: rgba(211, 211, 211, 0.438);
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  body .inp::placeholder{
+      color: white;
+  }
+  .first{
+      background-image: url("../img/login.jpg");
+      padding: 0;
+      margin: 0;
+      background-repeat: no-repeat;
+  }
+  .second{
+    background-image: url("../img/logo2.jpg");
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+  }
+/* side reg */
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #3f4449;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 40px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 55;
+    right: 65px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.third{
+    background-image: url("../img/logo.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
